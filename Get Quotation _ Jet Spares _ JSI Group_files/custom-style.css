@@ -1,0 +1,65 @@
+.pt-25{
+    padding-top: 25px;
+}
+.fs-18{
+    font-size: 18px;
+}
+.pb-5{
+    padding-bottom: 5px;
+}
+.fs-md{
+    font-size: 15px;
+}
+.border-after{
+    position: relative;
+}
+.border-after::after{
+    position: absolute;
+    bottom: 0;
+    content: "";
+    width: 20px;
+    border-top: 1px solid #017db1;
+}
+.d-flex{
+    display: flex;
+}
+.align-items-center{
+    align-items: center;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.btn-sm{
+    font-size: 12px;
+    padding: 5px 10px;
+    background: #1D1E2C !important;
+    border-color: #1D1E2C !important;
+}
+.me-30{
+    margin-right: 30px;
+}
+.m-0{
+    margin: 0;
+}
+.p-0{
+    padding: 0;
+}
+.file-upload-container{
+    border: 1px dashed #1D1E2C;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+.file-upload-container:hover{
+    opacity: .7;
+    border-color: #017db1;
+    color: #017db1;
+}
+.file-upload-icon{
+    font-size: 25px;
+}
+.pb-25{
+    padding-bottom: 25px;
+}
+.glyphicon-chevron-right:before,.glyphicon-chevron-left:before{
+    content: none;
+}
